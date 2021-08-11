@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@0;1&display=swap');
+
+
+body {
+    background-color: hsl(185, 41%, 84%);
+    font-family     : 'Space Mono', monospace;
+    color           : hsl(183, 100%, 15%);
+}
+
+h1 {
+    text-align     : center;
+    justify-content: center;
+    display        : flex;
+    margin         : 0px;
+    padding        : 0px;
+    font-weight    : 600;
+}
+
+span {
+    text-align     : center;
+    justify-content: center;
+    display        : flex;
+    margin         : 0px;
+    padding        : 0px;
+    font-weight    : 600;
+    font-size      : 40px;
+}
+
+p {
+    font-weight: 600;
+}
+
+.title {
+    padding-top: 90px;
+}
+
+.fundo {
+    background-color: white;
+    padding         : 35px;
+    margin          : 150px;
+    border-radius   : 25px;
+    display         : flex;
+}
+
+.block {
+    width        : 50%;
+    border-radius: 20px;
+    padding      : 35px;
+}
+
+.block-2 {
+    background-color: hsl(183, 100%, 15%);
+    color           : white;
+    border-radius   : 20px;
+    width           : 50%;
+    padding         : 35px;
+    display         : flex;
+    flex-direction  : column;
+    justify-content : space-between;
+}
+
+.line {
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+}
+
+.select-button {
+    display              : grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.input {
+    display         : flex;
+    justify-content : space-between;
+    align-items     : center;
+    background-color: hsl(189, 41%, 97%);
+    padding         : 10px;
+    border-radius   : 5px;
+}
+
+.valor {
+    color           : hsl(183, 100%, 15%);
+    background-color: transparent;
+    margin          : none;
+    border          : none;
+    outline         : none;
+    width           : 100%;
+    text-align      : end;
+    font-family     : 'Space Mono', monospace;
+    font-size       : 24px;
+    font-weight     : 600;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin            : 0;
+}
+
+.result {
+    color: rgba(0, 255, 255, .70);
+}
+
+.reset {
+    font-family     : 'Space Mono', monospace;
+    background-color: rgba(0, 255, 255, .70);
+    border-radius   : 7px;
+    margin          : none;
+    outline         : none;
+    border          : none;
+    cursor          : pointer;
+    padding         : 15px;
+    transition      : all 0.3s;
+    position        : relative;
+    overflow        : hidden;
+}
+
+.button {
+    padding         : 10px;
+    margin          : 8px;
+    border-radius   : 5px;
+    margin          : none;
+    outline         : none;
+    border          : none;
+    cursor          : pointer;
+    position        : relative;
+    overflow        : hidden;
+    background-color: hsl(183, 100%, 15%);
+    color           : white;
+    font-weight     : 600;
+}
